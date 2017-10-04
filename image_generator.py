@@ -2,6 +2,7 @@
 from keras.preprocessing.image import ImageDataGenerator
 
 class FlippedImageDataGenerator(ImageDataGenerator):
+    # source: Kaggle competition scripts
     flip_indices = [
         (0, 2), (1, 3),
         (4, 8), (5, 9), (6, 10), (7, 11),
